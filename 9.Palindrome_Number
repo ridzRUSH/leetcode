@@ -1,0 +1,27 @@
+#############################################
+           9.Palindrome_Number
+#############################################
+
+
+
+bool isPalindrome(int x) {
+      
+        cout<<x;
+        long long rev =0;
+        int r=0,temp;
+        temp=x;
+        while(x){
+                r=x%10;
+                rev=rev*10 + r;
+                x=x/10;
+        }
+        if(temp<0){
+            return false;
+        }
+       else if(rev==temp){
+            return true;
+        } 
+        else{
+            return false;
+        }
+    }
