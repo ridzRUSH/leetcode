@@ -1,5 +1,5 @@
 #############################################################################
-290 -> WOrd Pattern 
+                           290 -> WOrd Pattern 
 #############################################################################
  
  In this question we need to tell either the charactor match to the same string
